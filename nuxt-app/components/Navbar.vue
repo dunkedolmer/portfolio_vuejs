@@ -10,10 +10,10 @@ const navigation = [
 </script>
 
 <template>
-    <nav class="bg-regal-blue p-4">
+    <nav class="p-4">
         <div class="container flex justify-between items-center">
             <router-link to="/" class="text-white">Logo</router-link> <!-- Insert logo here -->
-            <ul class="flex text-custom-blue font-sans space-x-4">
+            <ul class="flex space-x-4">
                 <li v-for="item in navigation" :key="item.name">
                     <a :to="item.href" :class="{ 'hover:text-highlight': !item.current }" class="hover:text-highlight">
                         {{ item.name }}
