@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   router: {
-    mode: 'hash',
+    mode: 'history'
   },
   css: ['~/assets/css/main.css'],
   postcss: {
